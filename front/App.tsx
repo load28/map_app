@@ -6,15 +6,13 @@
  */
 
 import React from 'react';
-import { SafeAreaView, Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
+import { AuthStackNavigator } from './src/navigation/AuthStackNavigator.tsx';
 
 function App(): React.JSX.Element {
   return (
     <NavigationContainer>
-      <SafeAreaView>
-        <Text>Hello world!!</Text>
-      </SafeAreaView>
+      <AuthStackNavigator />
     </NavigationContainer>
   );
 }
