@@ -10,9 +10,12 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-masked-view/masked-view": "^0.3.2",
     "@react-navigation/native": "^7.0.14",
+    "@react-navigation/stack": "^7.1.1",
     "react": "18.3.1",
     "react-native": "0.76.5",
+    "react-native-gesture-handler": "^2.21.2",
     "react-native-safe-area-context": "^5.0.0",
     "react-native-screens": "^4.4.0"
   },
@@ -32,11 +35,12 @@
     "babel-jest": "^29.6.3",
     "eslint": "^8.19.0",
     "jest": "^29.6.3",
-    "prettier": "2.8.8",
+    "prettier": "^2.8.8",
     "react-test-renderer": "18.3.1",
     "typescript": "5.0.4"
   },
   "engines": {
     "node": ">=18"
-  }
+  },
+  "packageManager": "yarn@4.4.0+sha512.91d93b445d9284e7ed52931369bc89a663414e5582d00eea45c67ddc459a2582919eece27c412d6ffd1bd0793ff35399381cb229326b961798ce4f4cc60ddfdb"
 }
